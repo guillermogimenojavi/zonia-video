@@ -21,7 +21,22 @@ publicar. Funcionan en Windows y en Mac.
 
 ## Instalar
 
-Necesitas [Claude Code](https://claude.com/claude-code) y Node.js 22 o más.
+Necesitas [Claude Code](https://claude.com/claude-code), Node.js 22 o más y acceso a este repositorio (es privado:
+pídeselo a quien lo mantiene y acepta la invitación que te llega por email).
+
+0. Conecta tu ordenador a GitHub, una sola vez (en una terminal). Instala GitHub CLI (Windows: `winget install
+   GitHub.cli`; Mac: `brew install gh`) y después:
+
+   ```bash
+   gh auth login --hostname github.com --git-protocol https --web
+   ```
+
+   ```bash
+   gh auth setup-git
+   ```
+
+   O pídeselo a Claude: «conéctame a GitHub». El primero abre el navegador para que inicies sesión; el segundo deja
+   que la instalación y las actualizaciones entren en el repositorio privado.
 
 1. Instala las skills (en una terminal):
 
