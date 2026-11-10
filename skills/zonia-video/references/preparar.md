@@ -22,11 +22,9 @@
    «Cómo se ofrece») para elegir el de por defecto y el tema (claro o noche). Rellena `perfil.md`.
 6. **Reels a cámara** (si los va a hacer): desde `<carpeta de trabajo>/reels`, `python <zonia-reels>/scripts/reel.py
    entorno --instalar` y `reel.py preparar` (ver `zonia-reels`).
-7. **GitHub** (el repositorio es privado): comprueba `gh auth status`. Si no hay sesión, instala GitHub CLI (Windows:
-   `winget install GitHub.cli`; Mac: `brew install gh`), lanza `gh auth login --hostname github.com --git-protocol
-   https --web` en segundo plano, ábrele `https://github.com/login/device` para que inicie sesión él y escribe el
-   código de un solo uso que imprime. Después, `gh auth setup-git` (sin esto, la actualización no entra en el
-   repositorio privado).
+7. **Origen de las skills:** el repositorio es público; no hace falta cuenta de GitHub. Si se instalaron desde el ZIP,
+   reinstálalas con `npx skills add guillermogimenojavi/zonia-video -g -a claude-code -s '*' -y --copy` para que se
+   puedan actualizar.
 8. **Actualización automática:** añade a `~/.claude/settings.json` (créalo si no existe; si ya tiene `hooks`, súmalo
    sin borrar lo que haya) esta regla, que al abrir Claude Code baja en silencio la última versión de las skills:
 
@@ -37,7 +35,8 @@
 
    La salida va a `/dev/null` a propósito: lo que imprime un hook de arranque entra en la conversación y gasta
    tokens. Para comprobarlo, `npx skills update -g -y` a mano debe decir que está al día.
-9. **Si va a aportar mejoras** (tiene permiso de escritura en el repositorio): `git clone
+9. **Si va a aportar mejoras** (necesita cuenta de GitHub y permiso de escritura; `gh auth login` y `gh auth
+   setup-git`): `git clone
    https://github.com/guillermogimenojavi/zonia-video.git` en `<carpeta de trabajo>/zonia-video`. Las mejoras se hacen ahí, no
    en la copia instalada en `~/.claude/skills` (la actualización la sobrescribe). Ver «Aportar mejoras» en el
    `README.md` del repositorio.

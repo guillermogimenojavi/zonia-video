@@ -21,22 +21,7 @@ publicar. Funcionan en Windows y en Mac.
 
 ## Instalar
 
-Necesitas [Claude Code](https://claude.com/claude-code), Node.js 22 o más y acceso a este repositorio (es privado:
-pídeselo a quien lo mantiene y acepta la invitación que te llega por email).
-
-0. Conecta tu ordenador a GitHub, una sola vez (en una terminal). Instala GitHub CLI (Windows: `winget install
-   GitHub.cli`; Mac: `brew install gh`) y después:
-
-   ```bash
-   gh auth login --hostname github.com --git-protocol https --web
-   ```
-
-   ```bash
-   gh auth setup-git
-   ```
-
-   O pídeselo a Claude: «conéctame a GitHub». El primero abre el navegador para que inicies sesión; el segundo deja
-   que la instalación y las actualizaciones entren en el repositorio privado.
+Necesitas [Claude Code](https://claude.com/claude-code) y Node.js 22 o más. No hace falta cuenta de GitHub.
 
 1. Instala las skills (en una terminal):
 
@@ -52,6 +37,10 @@ pídeselo a quien lo mantiene y acepta la invitación que te llega por email).
 3. A partir de ahí, abre Claude Code en tu carpeta de trabajo y di **«vídeo nuevo»**, **«escríbeme el guion de…»** o
    **«sigue con <vídeo>»**.
 
+**Desde el ZIP** (si no puedes usar el comando del paso 1): descomprímelo y, desde la carpeta que sale, ejecuta
+`npx skills add . -g -a claude-code -s '*' -y --copy`. Así no se actualiza solo; para recibir las mejoras, instala
+después con el comando del paso 1.
+
 ## Actualizar
 
 Al preparar el equipo, Claude añade una regla que **actualiza las skills sola cada vez que se abre Claude Code**. Para
@@ -63,7 +52,8 @@ npx skills update -g -y
 
 ## Aportar mejoras
 
-Cualquiera con permiso de escritura en este repositorio puede mejorar las skills:
+Para usar las skills no hace falta GitHub. Para mejorarlas, sí: una cuenta de GitHub con permiso de escritura en este
+repositorio (pídeselo a quien lo mantiene). Claude te conecta con «conéctame a GitHub».
 
 1. Clona el repositorio en tu carpeta de trabajo (`C:\zonia\zonia-video` o `~/zonia/zonia-video`).
 2. Pídele a Claude el cambio ahí (no en `~/.claude/skills`, que se sobrescribe al actualizar). Cuando algo falla,
