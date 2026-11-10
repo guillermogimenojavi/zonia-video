@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10.4 10.06 43.2 43.2">
+  <g stroke="#3A2A21" stroke-width="1.2" stroke-linejoin="round">
+    <path d="M32 17 L39 21.04 L32 25.08 L25 21.04 Z" fill="#F2E4CC"/>
+    <path d="M25 21.04 L32 25.08 L32 31.08 L25 27.04 Z" fill="#E5C7A3"/>
+    <path d="M32 25.08 L39 21.04 L39 27.04 L32 31.08 Z" fill="#D3B38D"/>
+    <path d="M39 18.04 L46 22.08 L39 26.12 L32 22.08 Z" fill="#F2E4CC"/>
+    <path d="M32 22.08 L39 26.12 L39 35.12 L32 31.08 Z" fill="#E5C7A3"/>
+    <path d="M39 26.12 L46 22.08 L46 31.08 L39 35.12 Z" fill="#D3B38D"/>
+    <path d="M25 22.04 L32 26.08 L25 30.12 L18 26.08 Z" fill="#F7D99C"/>
+    <path d="M18 26.08 L25 30.12 L25 35.12 L18 31.08 Z" fill="#E5C7A3"/>
+    <path d="M25 30.12 L32 26.08 L32 31.08 L25 35.12 Z" fill="#D3B38D"/>
+    <path d="M46 27.08 L53 31.12 L46 35.16 L39 31.12 Z" fill="#F2E4CC"/>
+    <path d="M39 31.12 L46 35.16 L46 39.16 L39 35.12 Z" fill="#E5C7A3"/>
+    <path d="M46 35.16 L53 31.12 L53 35.12 L46 39.16 Z" fill="#D3B38D"/>
+    <path d="M18 23.08 L25 27.12 L18 31.16 L11 27.12 Z" fill="#F2E4CC"/>
+    <path d="M11 27.12 L18 31.16 L18 39.16 L11 35.12 Z" fill="#E5C7A3"/>
+    <path d="M18 31.16 L25 27.12 L25 35.12 L18 39.16 Z" fill="#D3B38D"/>
+    <path d="M32 16.08 L39 20.12 L32 24.16 L25 20.12 Z" fill="#DF663F"/>
+    <path d="M25 20.12 L32 24.16 L32 39.16 L25 35.12 Z" fill="#B74B25"/>
+    <path d="M32 24.16 L39 20.12 L39 35.12 L32 39.16 Z" fill="#9A4020"/>
+    <path d="M39 28.12 L46 32.16 L39 36.2 L32 32.16 Z" fill="#F7D99C"/>
+    <path d="M32 32.16 L39 36.2 L39 43.2 L32 39.16 Z" fill="#E5C7A3"/>
+    <path d="M39 36.2 L46 32.16 L46 39.16 L39 43.2 Z" fill="#D3B38D"/>
+    <path d="M25 31.12 L32 35.16 L25 39.2 L18 35.16 Z" fill="#F2E4CC"/>
+    <path d="M18 35.16 L25 39.2 L25 43.2 L18 39.16 Z" fill="#E5C7A3"/>
+    <path d="M25 39.2 L32 35.16 L32 39.16 L25 43.2 Z" fill="#D3B38D"/>
+    <path d="M32 33.16 L39 37.2 L32 41.24 L25 37.2 Z" fill="#F2E4CC"/>
+    <path d="M25 37.2 L32 41.24 L32 47.24 L25 43.2 Z" fill="#E5C7A3"/>
+    <path d="M32 41.24 L39 37.2 L39 43.2 L32 47.24 Z" fill="#D3B38D"/>
+  </g>
+</svg>

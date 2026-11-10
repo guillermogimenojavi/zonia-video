@@ -1,0 +1,957 @@
+{
+ "zooms": [
+  [
+   1.0,
+   1.035
+  ],
+  [
+   1.12,
+   1.14
+  ],
+  [
+   1.17,
+   1.2,
+   "cara"
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.17,
+   1.2,
+   "cara"
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.03
+  ],
+  [
+   1.11,
+   1.13
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.0
+  ],
+  [
+   1.0,
+   1.035
+  ],
+  [
+   1.11,
+   1.13
+  ],
+  [
+   1.0,
+   1.02
+  ]
+ ],
+ "imagen": {
+  "filtro": "contrast(1.06) saturate(0.93) brightness(1.01)",
+  "vineta": 0.3,
+  "abajo": "oscuro"
+ },
+ "logos": {
+  "claude": "Claude",
+  "anthropic": "Anthropic"
+ },
+ "secciones": [
+  {
+   "i": 9.48,
+   "f": 37.76,
+   "titulo": "Modelos"
+  },
+  {
+   "i": 45.16,
+   "f": 52.72,
+   "titulo": "Precio"
+  },
+  {
+   "i": 52.72,
+   "f": 61.6,
+   "titulo": "Usos"
+  },
+  {
+   "i": 61.6,
+   "f": 70.04,
+   "titulo": "El dato"
+  }
+ ],
+ "subtitulos": {
+  "max_linea": 18,
+  "grande": [
+   [
+    6.24,
+    9.48
+   ],
+   [
+    37.76,
+    39.44
+   ]
+  ],
+  "textos": {
+   "5": "5.5,",
+   "14": "existe,",
+   "25": "sobra.",
+   "27": "antes,",
+   "37": "segundos.",
+   "40": "cima,",
+   "42": "5.1,",
+   "50": "difíciles,",
+   "55": "caro.",
+   "56": "Después,",
+   "58": "5.5,",
+   "68": "serio.",
+   "70": "continuación,",
+   "72": "5.5,",
+   "74": "equilibrado,",
+   "77": "listo.",
+   "83": "5.5,",
+   "85": "pequeño.",
+   "90": "tonto,",
+   "97": "pan:",
+   "101": "camión,",
+   "104": "moto.",
+   "108": "moto:",
+   "117": "90 %",
+   "122": "anterior,",
+   "127": "Fable.",
+   "134": "días:",
+   "137": "PDF,",
+   "139": "correos,",
+   "152": "web.",
+   "155": "dato:",
+   "160": "solo,",
+   "171": "tareas.",
+   "172": "Este,",
+   "173": "72.",
+   "177": "servido,",
+   "180": "like,",
+   "189": "más."
+  },
+  "partir_antes": [
+   10,
+   13,
+   46,
+   53,
+   57,
+   66,
+   71,
+   75,
+   76,
+   80,
+   84,
+   98,
+   113,
+   116,
+   119,
+   135,
+   138,
+   140,
+   146,
+   156,
+   159,
+   161,
+   166,
+   167,
+   173,
+   178,
+   181,
+   182,
+   188
+  ],
+  "no_partir_antes": [
+   58,
+   72,
+   83
+  ],
+  "destacar_idx": []
+ },
+ "piezas": [
+  {
+   "tipo": "titular",
+   "i": 0,
+   "f": 3.2,
+   "logo": "claude",
+   "marca": "CLAUDE",
+   "fecha": "7 OCT 2026",
+   "marcaEn": 1.04,
+   "golpe": 1.84,
+   "lineas": [
+    {
+     "texto": "ACABA DE SALIR"
+    },
+    {
+     "texto": "HAIKU 5.5",
+     "caja": true
+    }
+   ]
+  },
+  {
+   "tipo": "ventajas",
+   "i": 3.2,
+   "f": 6.24,
+   "rapido": {
+    "entra": 3.86,
+    "en": 4.16
+   },
+   "barato": {
+    "entra": 4.74,
+    "en": 5.02
+   },
+   "pie": "Entre los modelos de Claude",
+   "sonidos": [
+    [
+     "aire",
+     3.86,
+     0.5
+    ],
+    [
+     "tick",
+     4.16,
+     1.0
+    ],
+    [
+     "aire",
+     4.74,
+     0.45
+    ],
+    [
+     "tick",
+     5.02,
+     1.0
+    ],
+    [
+     "nota",
+     5.06,
+     0.45
+    ]
+   ]
+  },
+  {
+   "tipo": "doble",
+   "i": 9.48,
+   "f": 37.76,
+   "cuerpos": [
+    {
+     "tipo": "escalera",
+     "aparece": [
+      9.56,
+      9.74,
+      9.92,
+      10.1
+     ],
+     "marca": {
+      "en": 12.39
+     },
+     "filas": [
+      {
+       "nombre": "FABLE 5.1",
+       "tam": 68,
+       "apunta": 14.31,
+       "en": 14.88,
+       "corto": "el más potente y el más caro",
+       "lineas": [
+        {
+         "texto": "El más potente",
+         "en": 16.87
+        },
+        {
+         "texto": "Problemas difíciles",
+         "en": 17.97
+        },
+        {
+         "texto": "El más caro",
+         "en": 20.83,
+         "estado": "amber"
+        }
+       ],
+       "logo": "claude"
+      },
+      {
+       "nombre": "OPUS 5.5",
+       "tam": 60,
+       "apunta": 22.0,
+       "en": 22.05,
+       "corto": "el recomendado",
+       "lineas": [
+        {
+         "texto": "Lo recomienda Anthropic",
+         "en": 24.64
+        },
+        {
+         "texto": "Para casi todo",
+         "en": 26.2
+        },
+        {
+         "texto": "El trabajo serio",
+         "en": 26.98
+        }
+       ],
+       "logo": "claude"
+      },
+      {
+       "nombre": "SONNET 5.5",
+       "tam": 52,
+       "apunta": 28.1,
+       "en": 29.1,
+       "corto": "el equilibrado",
+       "lineas": [
+        {
+         "texto": "El equilibrado",
+         "en": 31.38
+        },
+        {
+         "texto": "Rápido",
+         "en": 32.36
+        },
+        {
+         "texto": "Listo",
+         "en": 33.1
+        }
+       ],
+       "logo": "claude"
+      },
+      {
+       "nombre": "HAIKU 5.5",
+       "tam": 44,
+       "apunta": 34.7,
+       "en": 35.2,
+       "lineas": [
+        {
+         "texto": "Nuevo",
+         "en": 34.86,
+         "estado": "green"
+        },
+        {
+         "texto": "El pequeño",
+         "en": 37.08
+        }
+       ],
+       "logo": "claude"
+      }
+     ]
+    }
+   ],
+   "sonidos": [
+    [
+     "aire",
+     9.5,
+     0.5
+    ],
+    [
+     "tick-suave",
+     9.56,
+     0.7
+    ],
+    [
+     "tick-suave",
+     9.74,
+     0.7
+    ],
+    [
+     "tick-suave",
+     9.92,
+     0.7
+    ],
+    [
+     "tick-suave",
+     10.1,
+     0.7
+    ],
+    [
+     "tick-suave",
+     12.39,
+     0.8
+    ],
+    [
+     "tick",
+     14.31,
+     0.8
+    ],
+    [
+     "golpe-corto",
+     14.88,
+     0.45
+    ],
+    [
+     "tick-suave",
+     16.87,
+     0.9
+    ],
+    [
+     "tick-suave",
+     17.97,
+     0.9
+    ],
+    [
+     "tick",
+     20.83,
+     1.0
+    ],
+    [
+     "golpe-corto",
+     22.05,
+     0.45
+    ],
+    [
+     "tick-suave",
+     24.64,
+     0.9
+    ],
+    [
+     "tick-suave",
+     26.2,
+     0.9
+    ],
+    [
+     "tick-suave",
+     26.98,
+     0.9
+    ],
+    [
+     "tick",
+     28.1,
+     0.8
+    ],
+    [
+     "golpe-corto",
+     29.1,
+     0.45
+    ],
+    [
+     "tick-suave",
+     31.38,
+     0.9
+    ],
+    [
+     "tick-suave",
+     32.36,
+     0.9
+    ],
+    [
+     "tick-suave",
+     33.1,
+     0.9
+    ],
+    [
+     "tick-suave",
+     34.86,
+     0.9
+    ],
+    [
+     "golpe",
+     35.2,
+     0.5
+    ],
+    [
+     "brillo",
+     35.25,
+     0.35
+    ],
+    [
+     "tick-suave",
+     37.08,
+     0.9
+    ],
+    [
+     "tick",
+     34.7,
+     0.8
+    ]
+   ]
+  },
+  {
+   "tipo": "escena",
+   "i": 39.44,
+   "f": 45.16,
+   "titulo": "¿PARA QUÉ *MÁS*?",
+   "cuerpos": [
+    {
+     "tipo": "recado",
+     "nombre": "HAIKU 5.5",
+     "camino": {
+      "en": 39.96
+     },
+     "pan": {
+      "en": 40.68
+     },
+     "camion": {
+      "en": 41.34
+     },
+     "no": {
+      "en": 41.83
+     },
+     "carril": {
+      "en": 42.3
+     },
+     "moto": {
+      "en": 43.01
+     },
+     "haiku": {
+      "en": 43.49
+     },
+     "es": {
+      "en": 44.73
+     }
+    }
+   ]
+  },
+  {
+   "tipo": "precio",
+   "i": 45.2,
+   "f": 52.72,
+   "nombre": "HAIKU 5.5",
+   "anterior": "HAIKU 4.5",
+   "caro": "FABLE 5.1",
+   "rapido": {
+    "en": 46.03
+   },
+   "cuesta": {
+    "en": 46.87
+   },
+   "hasta": {
+    "en": 47.43
+   },
+   "baja": {
+    "en": 47.77
+   },
+   "antes": {
+    "en": 49.59
+   },
+   "relevo": 50.64,
+   "cien": {
+    "en": 50.79
+   },
+   "fable": {
+    "en": 52.23
+   },
+   "pie": "Precio de uso por API · Datos: Anthropic",
+   "sonidos": [
+    [
+     "aire",
+     45.3,
+     0.6
+    ],
+    [
+     "tick",
+     46.03,
+     1.0
+    ],
+    [
+     "tick-suave",
+     46.87,
+     0.9
+    ],
+    [
+     "golpe-corto",
+     47.82,
+     0.5
+    ],
+    [
+     "tick-suave",
+     49.59,
+     0.9
+    ],
+    [
+     "aire",
+     50.66,
+     0.45
+    ],
+    [
+     "tick-suave",
+     50.79,
+     1.0
+    ],
+    [
+     "tick-suave",
+     51.0,
+     1.0
+    ],
+    [
+     "golpe",
+     51.38,
+     0.42
+    ],
+    [
+     "tick",
+     52.23,
+     1.0
+    ]
+   ]
+  },
+  {
+   "tipo": "doble",
+   "i": 52.72,
+   "f": 61.6,
+   "titulo": "¿PARA QUÉ *SIRVE*?",
+   "avance": [
+    54.81,
+    56.35,
+    57.58,
+    59.6
+   ],
+   "cuerpos": [
+    {
+     "tipo": "iconos",
+     "items": [
+      {
+       "icono": "documento",
+       "en": 53.59
+      },
+      {
+       "icono": "mail",
+       "en": 53.79
+      },
+      {
+       "icono": "form",
+       "en": 53.99
+      },
+      {
+       "icono": "comentario",
+       "en": 54.19
+      }
+     ]
+    },
+    {
+     "tipo": "pdf",
+     "en": 54.81,
+     "tag": 55.55
+    },
+    {
+     "tipo": "correos",
+     "en": 56.35,
+     "ordena": 56.5
+    },
+    {
+     "tipo": "factura",
+     "en": 57.58,
+     "datos": 58.05,
+     "nombre": 58.66
+    },
+    {
+     "tipo": "chat",
+     "logo": "claude",
+     "en": 59.6,
+     "cliente": 59.8,
+     "responde": 60.54,
+     "web": 61.38
+    }
+   ],
+   "sonidos": [
+    [
+     "aire",
+     52.74,
+     0.5
+    ],
+    [
+     "tick-suave",
+     53.59,
+     0.7
+    ],
+    [
+     "tick-suave",
+     53.79,
+     0.7
+    ],
+    [
+     "tick-suave",
+     53.99,
+     0.7
+    ],
+    [
+     "tick-suave",
+     54.19,
+     0.7
+    ],
+    [
+     "tick",
+     54.81,
+     1.0
+    ],
+    [
+     "nota",
+     55.25,
+     0.4
+    ],
+    [
+     "tick-suave",
+     55.55,
+     0.9
+    ],
+    [
+     "tick",
+     56.35,
+     1.0
+    ],
+    [
+     "tick-suave",
+     56.8,
+     0.8
+    ],
+    [
+     "tick-suave",
+     56.96,
+     0.8
+    ],
+    [
+     "tick-suave",
+     57.12,
+     0.8
+    ],
+    [
+     "tick",
+     57.58,
+     1.0
+    ],
+    [
+     "tick-suave",
+     58.05,
+     0.9
+    ],
+    [
+     "tick-suave",
+     58.27,
+     0.9
+    ],
+    [
+     "nota",
+     58.49,
+     0.45
+    ],
+    [
+     "tick",
+     59.6,
+     1.0
+    ],
+    [
+     "notificacion",
+     59.8,
+     0.5
+    ],
+    [
+     "nota-doble",
+     60.54,
+     0.5
+    ],
+    [
+     "tick-suave",
+     61.38,
+     0.8
+    ]
+   ]
+  },
+  {
+   "tipo": "prueba",
+   "i": 62.36,
+   "f": 70.5,
+   "titulo": "MANEJAR UN ORDENADOR",
+   "raton": {
+    "en": 62.5,
+    "clic": 63.66
+   },
+   "solo": {
+    "en": 63.96
+   },
+   "relevo": 64.5,
+   "antes": {
+    "nombre": "HAIKU 4.5",
+    "valor": 16,
+    "nombreEn": 65.24,
+    "en": 66.88
+   },
+   "ahora": {
+    "nombre": "HAIKU 5.5",
+    "valor": 72,
+    "nombreEn": 68.68,
+    "en": 69.1
+   },
+   "cien": {
+    "en": 67.82
+   },
+   "total": "de cada 100 tareas",
+   "pie": "Prueba OSWorld 2.1 · Datos: Anthropic",
+   "sonidos": [
+    [
+     "aire",
+     62.4,
+     0.6
+    ],
+    [
+     "click",
+     63.66,
+     0.9
+    ],
+    [
+     "nota",
+     63.96,
+     0.45
+    ],
+    [
+     "aire",
+     64.52,
+     0.4
+    ],
+    [
+     "tick-suave",
+     65.24,
+     0.9
+    ],
+    [
+     "tick",
+     66.88,
+     1.0
+    ],
+    [
+     "tick-suave",
+     67.82,
+     0.8
+    ],
+    [
+     "tick-suave",
+     68.68,
+     0.9
+    ],
+    [
+     "golpe-grave",
+     69.1,
+     0.6
+    ],
+    [
+     "brillo",
+     69.15,
+     0.4
+    ]
+   ]
+  },
+  {
+   "tipo": "acciones",
+   "i": 70.62,
+   "f": 75.7,
+   "items": [
+    {
+     "icono": "corazon",
+     "texto": "ME GUSTA",
+     "en": 71.58,
+     "estado": "red",
+     "relleno": true
+    },
+    {
+     "icono": "enviar",
+     "texto": "COMPARTE",
+     "en": 72.12
+    },
+    {
+     "icono": "seguir",
+     "texto": "SÍGUEME",
+     "en": 74.08
+    }
+   ]
+  }
+ ],
+ "sonidos": [
+  [
+   "tick-suave",
+   39.96,
+   0.8
+  ],
+  [
+   "tick",
+   40.68,
+   1.0
+  ],
+  [
+   "tick",
+   41.34,
+   0.9
+  ],
+  [
+   "descarte",
+   41.83,
+   0.55
+  ],
+  [
+   "aire",
+   43.01,
+   0.6
+  ],
+  [
+   "tick",
+   43.49,
+   0.9
+  ],
+  [
+   "nota",
+   43.68,
+   0.5
+  ],
+  [
+   "golpe-corto",
+   44.73,
+   0.45
+  ]
+ ],
+ "portada": {
+  "t": 6.18,
+  "titular": {
+   "logo": "claude",
+   "marca": "CLAUDE",
+   "tamMax": 190,
+   "placa": 0.93,
+   "lineas": [
+    {
+     "texto": "NUEVO"
+    },
+    {
+     "texto": "HAIKU 5.5",
+     "caja": true
+    }
+   ]
+  }
+ }
+}

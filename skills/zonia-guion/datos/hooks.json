@@ -1,0 +1,303 @@
+{
+ "version": "es-1",
+ "note": "Las 26 fórmulas de gancho, en español y con ejemplos del mundo de zonia (elegir dónde vivir con datos oficiales; ilustrativos: nunca se presentan como datos reales). 'match' reconoce la fórmula en un gancho escrito; hookscore.py lo usa.",
+ "rules": [
+  "Escribe por separado la frase dicha y el rótulo en pantalla. El rótulo es el más corto y directo: seis palabras como mucho.",
+  "Sin preparación: el vídeo empieza en la frase a la que normalmente llegarías en el segundo seis.",
+  "Di la cifra si la hay, con fuente. «Mucho» no es una cifra. Si no hay cifra fiable, no la inventes: «[DATO PENDIENTE]».",
+  "El primer fotograma también es gancho: algo se mueve y el rótulo ya está en pantalla.",
+  "Si el gancho valdría para cualquier otra cuenta, no es tu gancho.",
+  "Un gancho promete algo: cúmplelo antes de la mitad del vídeo.",
+  "Marca zonia: sin emojis, sin «deja de hacer scroll», sin cebos y como mucho un «no X, sino Y»."
+ ],
+ "hooks": [
+  {
+   "id": 1,
+   "name": "Confesión del coste",
+   "template": "{Cantidad o tiempo concreto} es lo que me costó {un error}.",
+   "example": "Dos años de alquiler es lo que me costó no mirar la zona antes de firmar.",
+   "on_screen": "DOS AÑOS EN LA ZONA EQUIVOCADA",
+   "best_for": "Confianza rápida: la gente termina los vídeos en los que quien queda mal eres tú.",
+   "trap": "Un coste falso: «me costó la tranquilidad» no es una cifra y se nota.",
+   "match": "\\b(?:me|nos|le|les) (?:costó|cuesta|ha costado)\\b|\\bes lo que (?:me |nos )?(?:costó|cuesta)\\b|\\bperd(?:í|imos|ió)\\b[^.!?]{0,25}\\b\\d"
+  },
+  {
+   "id": 2,
+   "name": "Orden en negativo",
+   "template": "Deja de {hacer algo común}. Haz {alternativa}.",
+   "example": "Deja de elegir piso solo por las fotos. Mira antes la calle.",
+   "on_screen": "MIRA LA CALLE, NO LAS FOTOS",
+   "best_for": "Corrige una costumbre que el público reconoce como suya.",
+   "trap": "Sonar a sermón. La marca no da lecciones: muestra la escena y deja la conclusión.",
+   "match": "^\\s*(?:deja de|dejad de|no (?:hagas|asciendas|fiches|decidas|pidas|uses)|nunca)\\b"
+  },
+  {
+   "id": 3,
+   "name": "Nadie te cuenta",
+   "template": "Nadie te cuenta que {verdad incómoda sobre lo que quieren}.",
+   "example": "Nadie te cuenta que el mismo piso puede estar en dos zonas que no se parecen en nada.",
+   "on_screen": "NADIE TE LO CUENTA",
+   "best_for": "Abre un hueco de información sin prometer de más.",
+   "trap": "Que luego sea algo que todo el mundo cuenta.",
+   "match": "\\b(?:nadie|ninguno) (?:te |os |nos )?(?:cuenta|dice|explica|contó|dijo|habla)\\b"
+  },
+  {
+   "id": 4,
+   "name": "El reemplazo",
+   "template": "{Esto} sustituyó a {algo caro} por {precio}.",
+   "example": "Cinco minutos en un mapa sustituyeron a tres fines de semana visitando barrios.",
+   "on_screen": "3 FINDES → 5 MINUTOS",
+   "best_for": "Comparar coste contra coste en una línea.",
+   "trap": "Comparar cosas que no se pueden comparar o inventar el precio.",
+   "match": "\\bsustitu(?:yó|ye|ir)\\b|\\ben lugar de (?:pagar|contratar|fichar)\\b|\\breemplaz(?:ó|a)\\b"
+  },
+  {
+   "id": 5,
+   "name": "Tiempo que se encoge",
+   "template": "Antes esto me llevaba {mucho}. Ahora, {poco}.",
+   "example": "Antes comparar dos barrios me llevaba semanas. Ahora, una búsqueda.",
+   "on_screen": "SEMANAS → 1 BÚSQUEDA",
+   "best_for": "Enseñar un cambio con un número que se entiende de un vistazo.",
+   "trap": "Un antes y un después sin pruebas.",
+   "match": "\\bantes (?:me |nos |te )?(?:llevaba|tardaba|costaba)\\b|\\bahora (?:solo )?(?:lleva|tarda|son)\\b"
+  },
+  {
+   "id": 6,
+   "name": "El recibo",
+   "template": "Hice {algo} durante {N días}. Estos son los números reales.",
+   "example": "Comparé las 20 zonas más buscadas de Zaragoza. Estos son los datos reales.",
+   "on_screen": "20 ZONAS, DATOS REALES",
+   "best_for": "Prueba vivida, no opinión.",
+   "trap": "Inventar números o el periodo.",
+   "match": "\\bdurante \\d+\\s+(?:días|semanas|meses|años)\\b|\\bestos son los (?:números|datos)\\b|\\besto es lo que (?:vi|aprendí)\\b"
+  },
+  {
+   "id": 7,
+   "name": "Mal y bien",
+   "template": "Lo estás haciendo mal, y no es culpa tuya. {El arreglo}.",
+   "example": "El error más caro al mudarse no es el precio del piso.",
+   "on_screen": "EL ERROR MÁS CARO",
+   "best_for": "Nombrar un error común sin culpar a nadie.",
+   "trap": "Acusar al espectador; con la marca, nunca ridiculizar la intuición del CEO.",
+   "match": "\\b(?:el|un) error (?:más|que|común)\\b|\\blo est(?:ás|áis) haciendo mal\\b|\\berror\\b[^.!?]{0,20}\\bcomún\\b"
+  },
+  {
+   "id": 8,
+   "name": "Desde dentro",
+   "template": "Pasé {N años} {dentro de algo}. Esto es lo que nunca decíamos en voz alta.",
+   "example": "Años buscando piso para otros me enseñaron algo que nadie dice en voz alta.",
+   "on_screen": "LO QUE NO SE DICE",
+   "best_for": "Autoridad por experiencia propia.",
+   "trap": "Exagerar los años o el cargo.",
+   "match": "\\b(?:pasé|llevo|trabajé|estuve)\\b[^.!?]*\\b\\d+\\s*años\\b|\\bnunca (?:lo )?(?:decíamos|contábamos|dijimos)\\b"
+  },
+  {
+   "id": 9,
+   "name": "Llévatelo",
+   "template": "Llévate esta {herramienta}. Me costó {tiempo} dejarla bien.",
+   "example": "Llévate esta lista de cinco datos que mirar antes de firmar un alquiler.",
+   "on_screen": "5 DATOS ANTES DE FIRMAR",
+   "best_for": "Entregar algo útil y concreto.",
+   "trap": "Que la herramienta sea genérica.",
+   "match": "^\\s*(?:llévate|quédate con|copia|apunta)\\b|\\b(?:esta|la) (?:pregunta|plantilla) exacta\\b"
+  },
+  {
+   "id": 10,
+   "name": "Si te pasa esto",
+   "template": "Si {situación concreta}, esto lo arregla en {poco tiempo}.",
+   "example": "Si te vas a mudar con niños, mira esto antes de elegir barrio.",
+   "on_screen": "SI TE MUDAS CON NIÑOS",
+   "best_for": "Filtrar al público exacto en la primera frase.",
+   "trap": "Una situación tan general que vale para cualquiera.",
+   "match": "^\\s*si (?:tú |vas a |te |tienes |eres |estás |tu |vuestro )"
+  },
+  {
+   "id": 11,
+   "name": "Lista con favorita",
+   "template": "{N} {cosas} que {resultado}. La {k} es la que nadie usa.",
+   "example": "Tres datos que cambian lo que vale una zona. El tercero casi nadie lo mira.",
+   "on_screen": "3 DATOS QUE IMPORTAN",
+   "best_for": "Promete un recorrido corto con un premio.",
+   "trap": "Listas largas o puntos de relleno.",
+   "match": "^\\s*(?:\\d+|tres|cuatro|cinco|siete|diez)\\s+\\w+|\\bla (?:primera|segunda|tercera|número \\d+)\\b"
+  },
+  {
+   "id": 12,
+   "name": "La objeción",
+   "template": "«{Objeción que dicen de verdad}». Vale. Esta es la versión que funciona igualmente.",
+   "example": "«Yo ya conozco mi ciudad». Vale. Mira esto igualmente.",
+   "on_screen": "«YA CONOZCO MI CIUDAD»",
+   "best_for": "Darle la razón al escéptico antes de girar.",
+   "trap": "Inventar una objeción que nadie dice.",
+   "match": "^\\s*[«\\\"'][^»\\\"']{5,120}[»\\\"'][,.]?\\s*(?:vale|bien|de acuerdo|claro|pues)\\b"
+  },
+  {
+   "id": 13,
+   "name": "Antes y después en pantalla",
+   "template": "{Lo de antes}. {Lo de ahora}. {Una frase sobre la palanca}.",
+   "example": "Así veía el barrio desde el portal de anuncios. Así se ve con los datos oficiales.",
+   "on_screen": "ANTES / DESPUÉS",
+   "best_for": "Cuando el cambio se ve mejor que se cuenta.",
+   "trap": "Un después sin explicar qué lo causó.",
+   "match": "\\b(?:esto|eso) era\\b[^.!?]*[.!?]\\s*(?:esto|eso) es\\b|\\bantes\\b[^.!?]*\\bdespués\\b"
+  },
+  {
+   "id": 14,
+   "name": "La llamada",
+   "template": "{Grupo concreto}, este es el que estáis ignorando.",
+   "example": "Si estás pensando en mudarte este año, esto va por ti.",
+   "on_screen": "SI TE VAS A MUDAR",
+   "best_for": "Que el público objetivo se sienta aludido.",
+   "trap": "Un grupo tan amplio que no llama a nadie.",
+   "match": "^\\s*(?:todos los|todas las|cualquier)\\s+\\w+|^\\s*(?:ceos?|directivos?|fundadores?|inversores?)\\b[^.!?]{0,30}[,:]"
+  },
+  {
+   "id": 15,
+   "name": "Los intentos fallidos",
+   "template": "Mis primeros {N} {intentos} no sirvieron. Esto cambió en el {N+1}.",
+   "example": "Mis primeras tres búsquedas de piso salieron mal. Esto cambió en la cuarta.",
+   "on_screen": "LO QUE CAMBIÓ",
+   "best_for": "Honestidad que genera confianza (pilar 4).",
+   "trap": "Inventar el número de intentos.",
+   "match": "\\b(?:mis|nuestros|los) primer(?:os|as)\\s+\\d+\\b|\\bprimer(?:os|as)\\s+\\d+\\s+(?:reels?|vídeos?|clientes?|meses|intentos)\\b"
+  },
+  {
+   "id": 16,
+   "name": "La pregunta literal",
+   "template": "«{Pregunta tal y como la hicieron}». Me la hacen cada semana.",
+   "example": "«¿Cómo sé si una zona es segura de verdad?» Me lo preguntan cada semana.",
+   "on_screen": "¿ES SEGURA DE VERDAD?",
+   "best_for": "Usar las palabras exactas del público.",
+   "trap": "Una pregunta que nadie hace en realidad.",
+   "match": "^\\s*[«\\\"']?¿(?:cómo|qué|por qué|cuándo|dónde|quién|cuál|puedo|debo|es|hay)\\b"
+  },
+  {
+   "id": 17,
+   "name": "Cara a cara",
+   "template": "{A} frente a {B}. Probé los dos durante {tiempo} y no hubo color.",
+   "example": "El centro frente a las afueras. Comparé los dos con datos y no hubo color.",
+   "on_screen": "CENTRO VS AFUERAS",
+   "best_for": "Una decisión que el público tiene encima de la mesa.",
+   "trap": "Comparar por comparar.",
+   "match": "\\b(?:vs\\.?|frente a|contra)\\b|\\bdiferencias? entre\\b"
+  },
+  {
+   "id": 18,
+   "name": "Arranque en plena acción",
+   "template": "{Empieza en mitad de la acción.} Mira lo que pasa.",
+   "example": "Mira qué pasa cuando escribes tu dirección en el mapa.",
+   "on_screen": "MIRA ESTO",
+   "best_for": "Movimiento desde el primer fotograma.",
+   "trap": "Que no pase nada en los primeros segundos.",
+   "match": "^\\s*(?:mira|fíjate) (?:qué|lo que|esto|cómo)\\b|^\\s*déjame (?:enseñarte|mostrarte)\\b"
+  },
+  {
+   "id": 19,
+   "name": "El plazo",
+   "template": "{Algo} cambia el {fecha}. Haz {acción} antes.",
+   "example": "Antes de firmar el contrato, haz esta comprobación.",
+   "on_screen": "ANTES DE FIRMAR",
+   "best_for": "Urgencia real.",
+   "trap": "Una urgencia inventada.",
+   "match": "\\bantes de (?:que |cerrar|decidir|firmar|anunciar)\\b|\\b(?:cambia|termina|cierra) el \\d+\\b"
+  },
+  {
+   "id": 20,
+   "name": "Permiso",
+   "template": "No necesitas {lo que todo el mundo dice que necesitas}.",
+   "example": "No necesitas visitar diez barrios para saber cuál encaja contigo.",
+   "on_screen": "NO LO NECESITAS",
+   "best_for": "Quita un peso de encima al espectador.",
+   "trap": "Contradecir algo que nadie afirma.",
+   "match": "\\bno (?:te )?(?:necesitas|hace falta)\\b|\\bdeja de (?:preocuparte|intentar)\\b"
+  },
+  {
+   "id": 21,
+   "name": "Empezar a media frase",
+   "template": "{…y ahí fue cuando {el giro}.}",
+   "example": "…y ahí fue cuando vi que la calle de al lado tenía riesgo de inundación.",
+   "on_screen": "Y AHÍ LO VI",
+   "best_for": "Engancha porque parece que te has perdido algo.",
+   "trap": "Que el giro no llegue.",
+   "match": "^\\s*(?:\\.\\.\\.|…)|^\\s*(?:y (?:ahí|entonces) (?:fue cuando|me di cuenta)|y (?:él|ella|me) (?:dijo|preguntó))\\b"
+  },
+  {
+   "id": 22,
+   "name": "Refrán al revés",
+   "template": "{Frase hecha, dada la vuelta.}",
+   "example": "El barrio de moda no siempre es el que mejor te encaja.",
+   "on_screen": "NO SIEMPRE",
+   "best_for": "Polariza con una idea, no con una persona.",
+   "trap": "Darle la vuelta a algo por llamar la atención sin tesis detrás.",
+   "match": "^\\s*(?:el|la|los|las|quien) [^.!?]{2,40}\\b(?:no siempre|nunca|tampoco)\\b"
+  },
+  {
+   "id": 23,
+   "name": "La estadística",
+   "template": "El {N} % de {grupo} {dato sorprendente}.",
+   "example": "[DATO PENDIENTE: cifra con fuente oficial] de las calles de tu ciudad…",
+   "on_screen": "[CIFRA] %",
+   "best_for": "Una cifra que sorprende y se entiende.",
+   "trap": "Una cifra sin fuente: con la marca, nunca.",
+   "match": "^\\s*(?:el |la )?\\d[\\d.,]*\\s?%|\\b\\d[\\d.,]*\\s?%\\s+de\\b|\\bpor ciento\\b"
+  },
+  {
+   "id": 24,
+   "name": "La novedad",
+   "template": "Esto es lo nuevo en {algo}.",
+   "example": "Esto es lo nuevo en el mapa: ya puedes comparar tu calle con toda España.",
+   "on_screen": "LO NUEVO",
+   "best_for": "Pilar 4: enseñar el método por dentro.",
+   "trap": "Anunciar una novedad que no lo es.",
+   "match": "^\\s*(?:esto|estos|aquí) (?:es|son)\\s+(?:lo|el|la|los|las)?\\s*(?:nuevo|nueva|nuevos)\\b"
+  },
+  {
+   "id": 25,
+   "name": "El resultado de otro",
+   "template": "Hubo un {persona} que {resultado} en {tiempo}.",
+   "example": "Imagina a alguien que se muda a una ciudad que no conoce y tiene una semana para elegir.",
+   "on_screen": "IMAGINA QUE TE MUDAS",
+   "best_for": "Una historia ajena que el público hace suya. Si es inventada, se dice («imagina…»).",
+   "trap": "Presentar un caso inventado como real o un cliente reconocible.",
+   "match": "\\b(?:había|hubo|conocí a|imagina a) (?:un|una)\\b"
+  },
+  {
+   "id": 26,
+   "name": "El superlativo",
+   "template": "Lo más {rápido / grande / único} en {algo} es {la respuesta}.",
+   "example": "La decisión más cara al mudarte es la que tomas sin mirar la zona.",
+   "on_screen": "LA MÁS CARA",
+   "best_for": "Ordena el mundo en una frase.",
+   "trap": "Un superlativo que no se puede defender.",
+   "match": "^\\s*(?:lo|el|la|los|las)\\s+(?:más|mejor|peor|único|única|primer|primera)\\b"
+  }
+ ],
+ "classify_order": [
+  1,
+  23,
+  5,
+  4,
+  3,
+  15,
+  20,
+  7,
+  9,
+  26,
+  25,
+  24,
+  18,
+  17,
+  8,
+  6,
+  16,
+  12,
+  10,
+  2,
+  13,
+  19,
+  21,
+  22,
+  11,
+  14
+ ]
+}

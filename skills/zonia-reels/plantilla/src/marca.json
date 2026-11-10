@@ -1,0 +1,38 @@
+{
+ "nombre": "zonia",
+ "tema": "claro",
+ "colores": {
+  "fondo": "#1F1A17",
+  "texto": "#F6EBDD",
+  "suave": "#CDBFB0",
+  "tenue": "#8C7360",
+  "acento": "#DF663F",
+  "acento2": "#B74B25",
+  "acento3": "#F0A07A",
+  "ok": "#A3B27A",
+  "aviso": "#F7D99C",
+  "error": "#E5806B",
+  "borde": "#3A2F29",
+  "borde2": "#4E3E34",
+  "tarjeta": ["#2A2320", "#241E1B"]
+ },
+ "colores_claro": {
+  "fondo": "#FBF4E7",
+  "texto": "#3A2A21",
+  "suave": "#6B5345",
+  "tenue": "#B89A78",
+  "acento": "#DF663F",
+  "acento2": "#B74B25",
+  "acento3": "#F0A07A",
+  "ok": "#5E602C",
+  "aviso": "#A47B1F",
+  "error": "#9A4020",
+  "borde": "#E5C7A3",
+  "borde2": "#D3B38D",
+  "tarjeta": ["#FFFDF8", "#F2E4CC"]
+ },
+ "fuente": "Nunito",
+ "fuente_texto": "Geist",
+ "logo": "logos/zonia-logo-oscuro.svg",
+ "logo_claro": "logos/zonia-logo-claro.svg"
+}
