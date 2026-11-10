@@ -1,6 +1,6 @@
 ---
 name: zonia-animado
-description: Vídeos de zonia que son solo animación, sin nadie a cámara (vertical, cuadrado u horizontal), con voz o sin ella, y piezas sueltas (título, cortinilla, gráfico, mapa, logo animado), hechos con HyperFrames en la marca zonia y en el estilo de animación que elija cada persona. Úsala cuando pidan «un vídeo animado», «una animación de…», «un vídeo sin salir yo», «una cortinilla», «un gráfico animado» o una pieza sin grabación de cámara. Si hay grabación a cámara en vertical, la skill es zonia-reels.
+description: "Vídeos de zonia solo de animación, sin cámara, y piezas sueltas (título, cortinilla, gráfico, mapa, logo animado), con HyperFrames. Úsala al pedir «un vídeo animado», «una animación de…» o «un vídeo sin salir yo»."
 ---
 
 # zonia · solo animación (HyperFrames)

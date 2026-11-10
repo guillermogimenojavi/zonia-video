@@ -1,6 +1,6 @@
 ---
 name: zonia-reels
-description: "Edita reels verticales de zonia (Instagram, TikTok, Shorts) de una persona hablando a cámara, con motion graphics en Remotion en la marca zonia, sincronizados palabra a palabra con su voz. Quita pausas y tomas repetidas, reencuadra a 9:16 sin tapar la cara, alterna cara con pieza, escena y primer plano, pone doble pantalla si la piden y añade subtítulos, capítulos, sonidos y portada. Úsala SIEMPRE que quieran editar un reel o un vídeo corto o vertical grabado a cámara («edita este reel», «hazme el reel», «subtítulos animados», «quita los silencios», «doble pantalla»), dejen un bruto para redes o quieran retocar uno hecho con ella. Solo animación, sin cámara: zonia-animado."
+description: "Edita reels verticales de zonia grabados a cámara (Remotion): quita pausas y tomas, sincroniza cada animación con la voz, subtítulos, sonidos y portada. Úsala al pedir «edita este reel», «quita los silencios», «doble pantalla» o retocar uno hecho con ella."
 ---
 
 # Reels de zonia: índice
@@ -42,7 +42,7 @@ Otros apartados de `pasos.md`: doble pantalla, modo clásico (clips de móvil, g
   (`cortar --clasico`, `guion.json`) solo para clips de móvil a pantalla completa o grabación doble.
 - **El plan, con los textos de pantalla, se enseña antes del guion.** Marca lo que necesite su revisión.
 - **Fotograma 0 con el gancho entero**, primer cambio de plano antes del segundo 3, un cambio visual cada 1-2 s, y el
-  resto de reglas de ritmo de `zonia-video` («Ritmo, cortes y ganchos»).
+  resto de reglas de `zonia-video/references/ritmo.md`.
 - **Marca de zonia** (`zonia-video/marca/marca.md`): sus colores, Nunito y Geist, y su logo; ya están en la plantilla.
   Textos en tipo oración y con fuente en cada cifra (`marca.md` § 3). La cara nunca tapada. Cada reel elige tema claro
   u oscuro.

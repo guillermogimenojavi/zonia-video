@@ -146,7 +146,7 @@ python <skill>/scripts/reel.py tira salida/<reel>_v1.mp4 18.8 20.0 --fps 25
 - `render` deja `salida/<reel>_v1.mp4` con el sonido masterizado (debe salir en −14 LUFS aproximadamente, con el pico por debajo de −1 dB).
 - `portada` deja `salida/<reel>_portada.jpg` (si el guion tiene `portada`).
 - `tira` saca fotogramas seguidos del vídeo ya hecho: mira así un par de transiciones.
-- **Revisión de retención** (si el reel va a Instagram, TikTok o Shorts): con `salida/<reel>_v1.mp4`, `trabajo/<reel>/alineacion/tiempos.json` como `--transcripcion` y los instantes de la tabla de sincronía de `edl` como `--eventos`, según `zonia-video` (sección «Antes de publicar un vertical»). Con alguna FALLA, no se entrega como final sin su visto bueno.
+- **Revisión de retención** (si el reel va a Instagram, TikTok o Shorts): con `salida/<reel>_v1.mp4`, `trabajo/<reel>/alineacion/tiempos.json` como `--transcripcion` y los instantes de la tabla de sincronía de `edl` como `--eventos`, según `zonia-video/references/revision-retencion.md`. Con alguna FALLA, no se entrega como final sin su visto bueno.
 - **Revisión independiente:** antes de entregar, lanza un subagente que revise el vídeo sin haberlo hecho (qué pedirle, en `references/oficio.md`, apartado 9). Comprueba sus hallazgos antes de cambiar nada.
 
 **Entrega** el archivo (en `salida/`) y cuenta en pocas líneas y sin jerga: cuánto has quitado, qué se ve en cada parte, **qué datos salen en pantalla y de dónde vienen**, y cualquier duda sobre lo que dice (un nombre mal pronunciado, algo que no cuadra con la fuente). Pide opinión con ejemplos de lo que puede pedir: «subtítulos más grandes», «menos cosas en pantalla», «ese logo no es», «más rápido».

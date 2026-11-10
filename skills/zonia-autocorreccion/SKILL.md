@@ -1,6 +1,6 @@
 ---
 name: zonia-autocorreccion
-description: Arregla de raíz los fallos de las herramientas de edición de vídeo de zonia (skills zonia-reels, zonia-animado y zonia-video, sus scripts, ffmpeg, faster-whisper, PyTorch, Remotion, Playwright, HyperFrames) y deja la skill blindada para que no vuelva a pasar. Úsala SIEMPRE que un comando de esas skills termine con error, traza de Python, «Ha fallado», código de salida distinto de 0, o un resultado que no cuadra (palabras que se cuelan, vídeo sin sonido, archivo que no aparece), y cuando digan «arréglalo», «ha fallado», «otra vez el error» o «que no vuelva a pasar». No es para cambios de estilo o de contenido de un vídeo.
+description: "Arregla de raíz los fallos de las skills de vídeo de zonia (scripts, ffmpeg, whisper, PyTorch, Remotion, HyperFrames) para que no se repitan. Úsala cuando un comando falle o dé un resultado raro, o al decir «arréglalo» o «ha fallado». No es para cambios de estilo."
 ---
 
 # Autocorrección de las skills de vídeo
@@ -30,7 +30,12 @@ sin jerga.
      ahora el script, con la fecha;
    - si depende de ese ordenador (versiones fijadas, rutas), en su `perfil.md` («Quién soy»);
    - el caso nuevo, en la tabla de abajo.
-7. **Retoma el trabajo** donde se quedó.
+7. **Que llegue a todo el equipo.** La copia instalada (`~/.claude/skills`) se sobrescribe con cada actualización:
+   - si la persona tiene el repositorio clonado (`<carpeta de trabajo>/zonia-video`), haz el mismo arreglo ahí, en una
+     rama `arreglo/<tema>`, y con su permiso súbelo y abre un pull request (`gh pr create`);
+   - si no, deja el arreglo descrito (archivo, qué cambia y por qué) en `aprendizajes.md` para que lo suba quien
+     mantiene el repositorio.
+8. **Retoma el trabajo** donde se quedó.
 
 Si el arreglo necesita instalar algo grande, borrar algo o tocar algo fuera de la carpeta de trabajo, pregunta antes.
 

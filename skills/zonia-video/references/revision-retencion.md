@@ -58,8 +58,17 @@ Los umbrales de los apartados A y B son un punto de partida. Se ajustan cuando h
 ## Cómo se ejecuta
 
 `python <zonia-video>/scripts/retencion.py` mide las comprobaciones 1, 3, 4, 5, 6, 8, 9, 14 y 15 y el apartado B, y
-escribe el informe con las filas 2, 7, 10, 11, 12 y 13 en «REVISAR» para completarlas mirando fotogramas. Detalles en la
-sección «Antes de publicar un vertical» de `zonia-video/SKILL.md`. Notas:
+escribe el informe con las filas 2, 7, 10, 11, 12 y 13 en «REVISAR» para completarlas mirando fotogramas.
+
+- `--transcripcion`: las palabras con tiempos (reels: `trabajo/<reel>/alineacion/tiempos.json`; HyperFrames:
+  `transcript.json`).
+- `--eventos`: los instantes de la tabla de sincronía (cada pieza o texto que entra y cada corte; en HyperFrames, los
+  `data-start` de cada escena).
+- `--voz`: la voz sola si la hay (con música, los silencios no se ven). `--marcados`: los inicios de los `(S)`.
+- Las filas REVISAR se rellenan mirando fotogramas (`reel.py revisar` o `npx hyperframes snapshot`). Enseña la tabla
+  y el veredicto.
+
+Notas:
 
 - La detección de cortes de ffmpeg no ve las piezas que entran poco a poco ni los saltos entre planos de la misma
   pared: la comprobación 6 solo es fiable con `--eventos` (la tabla de sincronía de la skill).

@@ -39,9 +39,27 @@ Necesitas [Claude Code](https://claude.com/claude-code) y Node.js 22 o más.
 
 ## Actualizar
 
+Al preparar el equipo, Claude añade una regla que **actualiza las skills sola cada vez que se abre Claude Code**. Para
+hacerlo a mano:
+
 ```bash
-npx skills update -g
+npx skills update -g -y
 ```
+
+## Aportar mejoras
+
+Cualquiera con permiso de escritura en este repositorio puede mejorar las skills:
+
+1. Clona el repositorio en tu carpeta de trabajo (`C:\zonia\zonia-video` o `~/zonia/zonia-video`).
+2. Pídele a Claude el cambio ahí (no en `~/.claude/skills`, que se sobrescribe al actualizar). Cuando algo falla,
+   `zonia-autocorreccion` ya lo hace así.
+3. Claude crea una rama, sube el cambio y abre un *pull request* (con tu permiso).
+4. Quien mantiene el repositorio lo revisa y lo acepta. La próxima vez que abran Claude Code, lo tiene todo el equipo sin hacer nada.
+
+Qué se puede cambiar y qué no:
+- **Sí:** reglas de oficio, arreglos de scripts, piezas nuevas, estilos nuevos en el menú, fórmulas de gancho.
+- **Con acuerdo del equipo:** el ritmo (`skills/zonia-video/references/ritmo.md`) y los umbrales de retención.
+- **No:** la marca (`skills/zonia-video/marca/`). Los gustos personales van en el `perfil.md` de cada uno, no aquí.
 
 ## Cómo se trabaja
 

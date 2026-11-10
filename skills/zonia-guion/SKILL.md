@@ -1,6 +1,6 @@
 ---
 name: zonia-guion
-description: "Guion y gancho de un reel o Short de zonia antes de grabarlo (30-60 s, con pausas marcadas, gancho puntuado y rótulos), y quitar a un texto el aire de IA. Úsala SIEMPRE que pidan «escríbeme el guion», «qué gancho pongo», «puntúa estos ganchos», «cuánto dura este guion», «suena a IA» o quieran preparar un vídeo que aún no está grabado. Editar el vídeo ya grabado: zonia-video."
+description: "Guion y gancho de un reel de zonia antes de grabar (ganchos puntuados, duración medida, pausas marcadas) y quitar a un texto el aire de IA. Úsala al pedir «escríbeme el guion», «qué gancho pongo» o «suena a IA»."
 ---
 
 # Guion y gancho (zonia)
