@@ -33,7 +33,7 @@
    La salida va a `/dev/null` a propósito: lo que imprime un hook de arranque entra en la conversación y gasta
    tokens. Para comprobarlo, `npx skills update -g -y` a mano debe decir que está al día.
 8. **Si va a aportar mejoras** (tiene permiso de escritura en el repositorio): `git clone
-   https://github.com/<usuario>/zonia-video.git` en `<carpeta de trabajo>/zonia-video`. Las mejoras se hacen ahí, no
+   https://github.com/guillermogimenojavi/zonia-video.git` en `<carpeta de trabajo>/zonia-video`. Las mejoras se hacen ahí, no
    en la copia instalada en `~/.claude/skills` (la actualización la sobrescribe). Ver «Aportar mejoras» en el
    `README.md` del repositorio.
 9. Dile que abra Claude Code en su carpeta de trabajo a partir de ahora.

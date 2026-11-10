@@ -26,7 +26,7 @@ Necesitas [Claude Code](https://claude.com/claude-code) y Node.js 22 o más.
 1. Instala las skills (en una terminal):
 
    ```bash
-   npx skills add <usuario-de-github>/zonia-video -g -a claude-code -s '*' -y --copy
+   npx skills add guillermogimenojavi/zonia-video -g -a claude-code -s '*' -y --copy
    ```
 
 2. Abre Claude Code y escribe: **«prepara mi equipo para hacer vídeos de zonia»**. Claude comprueba e instala lo que
